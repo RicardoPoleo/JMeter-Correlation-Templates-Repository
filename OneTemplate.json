@@ -1,9 +1,9 @@
 {
-  "id" : "Siebel-CRM(Single Temp)",
-  "name" : "Template1",
+  "id" : "Siebel-1.1",
+  "name" : "Siebel-1.1_Name",
   "author" : "blazemeter",
-  "description" : "Template1 - blazemeter",
-  "version" : "1.0",
+  "description" : "This is the version number 1.1 of this template. Now we have support for all the variables and we are awesome!!!!",
+  "version" : "1.1",
   "rules" : [ {
     "referenceName" : "Temp1Siebel",
     "correlationExtractor" : {
@@ -25,4 +25,3 @@
     }
   } ]
 }
-
