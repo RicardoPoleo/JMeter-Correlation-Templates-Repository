@@ -1,0 +1,27 @@
+{
+  "id" : "Twitter-1.0",
+  "name" : "Twitter-1.0_Name",
+  "author" : "blazemeter",
+  "description" : "This is the version number 1.0 for Twitter.",
+  "version" : "1.0",
+  "rules" : [ {
+    "referenceName" : "Temp1Twitter",
+    "correlationExtractor" : {
+      "type" : "com.blazemeter.jmeter.correlation.core.extractors.RegexCorrelationExtractor",
+      "regex" : "(wordpress)"
+    },
+    "correlationReplacement" : {
+      "type" : "com.blazemeter.jmeter.correlation.core.replacements.RegexCorrelationReplacement"
+    }
+  }, {
+    "referenceName" : "Temp1Twitter",
+    "correlationExtractor" : {
+      "type" : "com.blazemeter.jmeter.correlation.core.extractors.RegexCorrelationExtractor",
+      "target" : "URL",
+      "regex" : "(wordp)"
+    },
+    "correlationReplacement" : {
+      "type" : "com.blazemeter.jmeter.correlation.core.replacements.RegexCorrelationReplacement"
+    }
+  } ]
+}
