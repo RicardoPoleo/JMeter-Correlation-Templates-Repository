@@ -1,0 +1,4 @@
+{
+  "facebook": { "versions": [ "1.0", "1.1" ] },
+  "twitter": { "versions": [ "1.0" ] }
+}
