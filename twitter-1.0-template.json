@@ -1,6 +1,6 @@
 {
-  "id" : "Twitter-1.0",
-  "name" : "Twitter-1.0_Name",
+  "id" : "twitter",
+  "name" : "twitter",
   "author" : "blazemeter",
   "description" : "This is the version number 1.0 for Twitter.",
   "version" : "1.0",
