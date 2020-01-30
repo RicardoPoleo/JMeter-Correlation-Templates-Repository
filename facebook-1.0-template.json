@@ -1,6 +1,6 @@
 {
-  "id" : "Facebook-1.0",
-  "name" : "Facebook-1.0_Name",
+  "id" : "facebook",
+  "name" : "facebook",
   "author" : "blazemeter",
   "description" : "This is the version number 1.0 of this template.",
   "version" : "1.0",
