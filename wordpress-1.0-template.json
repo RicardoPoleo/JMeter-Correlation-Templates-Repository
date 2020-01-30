@@ -1,6 +1,6 @@
 {
-  "id" : "Wordpress-1.0",
-  "name" : "Wordpress-1.0_Name",
+  "id" : "wordpress",
+  "name" : "wordpress",
   "author" : "blazemeter",
   "description" : "This is the version number 1.0 for wordpress.",
   "version" : "1.0",
