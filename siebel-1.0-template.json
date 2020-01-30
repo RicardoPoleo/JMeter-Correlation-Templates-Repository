@@ -1,6 +1,6 @@
 {
-  "id" : "Siebel-1.0",
-  "name" : "Siebel-1.0_Name",
+  "id" : "siebel",
+  "name" : "siebel",
   "author" : "blazemeter",
   "description" : "This is the version number 1.0 of this template.",
   "version" : "1.0",
