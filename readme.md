@@ -2,7 +2,11 @@
 
 ## Introduction
 
-We are using this Repo to store the "Correlation Templates Repositories" and the "Correlation Templates" asociated to them. Basically, any link can be used to test the app but, they need to be used in their "raw" versions to be functional.
+In the most recent implementations of (Siebel's JMeter Plugin)[https://github.com/Blazemeter/SiebelPlugin] (probably Correlations Recorder renamed) we will be adding the possibilty of sharing the users Templates as Repositories, to be used on different enviroments and platforms. 
+
+Before that release come's to the public, we will be using this GitHub's Repo to test and store the "Repositories" that contains the templates.
+
+Basically, any link can be used to test the app but, they need to be used in their "raw" versions, the pure "JSON" file, to be able to work, at this stage.
 
 Its expected that the future users use their very own Web Link to store those files.
 
