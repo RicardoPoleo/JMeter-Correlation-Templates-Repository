@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In the most recent implementations of (Siebel's JMeter Plugin)[https://github.com/Blazemeter/SiebelPlugin] (probably Correlations Recorder renamed) we will be adding the possibilty of sharing the users Templates as Repositories, to be used on different enviroments and platforms. 
+In the most recent implementations of [Siebel's JMeter Plugin](https://github.com/Blazemeter/SiebelPlugin) (probably Correlations Recorder renamed) we will be adding the possibilty of sharing the users Templates as Repositories, to be used on different enviroments and platforms. 
 
 Before that release come's to the public, we will be using this GitHub's Repo to test and store the "Repositories" that contains the templates.
 
