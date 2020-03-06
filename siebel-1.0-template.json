@@ -1,7 +1,5 @@
 {
   "id" : "siebel",
-  "name" : "siebel",
-  "author" : "blazemeter",
   "description" : "This is the version number 1.0 of this template.",
   "version" : "1.0",
   "rules" : [ {
