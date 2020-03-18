@@ -30,3 +30,9 @@ This file contains the Repository file:
 ```
 
 Which will be used to build the urls to download the Siebel's and Wordpress's Templates
+
+## Some JARs
+
+Since now we will be testing dependencies, we can use this:
+
+https://github.com/RicardoPoleo/JMeter-Correlation-Templates-Repository/raw/master/fairExtension-1.0.jar
