@@ -14,11 +14,11 @@ Its expected that the future users use their very own Web Link to store those fi
 
 To test the download of the "Base Repository", the link should follow the following structure:
 
-`https://raw.githubusercontent.com/<UserRepo>/<Repository>/<rute_to_the_repository_file>.json`
+`https://github.com/<UserRepo>/<Repository>/<rute_to_the_repository_file>.json`
 
 For example: 
 
-<pre>https://raw.githubusercontent.com/RicardoPoleo/JMeter-Correlation-Templates-Repository/master/base-repository.json</pre>
+<pre>https://github.com/RicardoPoleo/JMeter-Correlation-Templates-Repository/raw/master/base-repository.json</pre>
 
 This file contains the Repository file:
 
