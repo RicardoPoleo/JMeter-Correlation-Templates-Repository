@@ -3,6 +3,8 @@
   "name" : "wordpress",
   "author" : "blazemeter",
   "description" : "This is the version number 1.0 for wordpress.",
+  "components": "",
+  "responseFilters": "",
   "version" : "1.0",
   "rules" : [ {
     "referenceName" : "Temp1wordpress",
