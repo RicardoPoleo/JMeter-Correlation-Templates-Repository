@@ -12,27 +12,7 @@ Its expected that the future users use their very own Web Link to store those fi
 
 ## Usage
 
-To test the download of the "Base Repository", the link should follow the following structure:
+The Actual Repositories can be found at
+[Examples/Repositories](https://github.com/RicardoPoleo/JMeter-Correlation-Templates-Repository/tree/master/Examples/Repositories) folder.
 
-`https://github.com/<UserRepo>/<Repository>/<rute_to_the_repository_file>.json`
-
-For example: 
-
-<pre>https://github.com/RicardoPoleo/JMeter-Correlation-Templates-Repository/raw/master/base-repository.json</pre>
-
-This file contains the Repository file:
-
-```
-{
-  "siebel": { "versions": [ "1.0", "1.1" ] },
-  "wordpress": { "versions": [ "1.0" ] }
-}
-```
-
-Which will be used to build the urls to download the Siebel's and Wordpress's Templates
-
-## Some JARs
-
-Since now we will be testing dependencies, we can use this:
-
-https://github.com/RicardoPoleo/JMeter-Correlation-Templates-Repository/raw/master/fairExtension-1.0.jar
+The Jars will be located at [dummy/jars](https://github.com/RicardoPoleo/JMeter-Correlation-Templates-Repository/tree/master/dummy/jars) folder.
