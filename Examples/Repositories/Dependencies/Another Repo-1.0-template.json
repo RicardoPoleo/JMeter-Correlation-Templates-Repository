@@ -1,0 +1,22 @@
+{
+  "id" : "Another Repo",
+  "description" : "Testing implementation of Dummy V2.0",
+  "version" : "1.0",
+  "components" : "",
+  "responseFilters" : "",
+  "rules" : [ {
+    "referenceName" : "Dep2",
+    "correlationExtractor" : null,
+    "correlationReplacement" : {
+      "type" : "com.blazemeter.jmeter.correlation.core.replacements.RegexCorrelationReplacement",
+      "regex" : "AnotherRegex"
+    }
+  } ],
+  "dependencies" : [ {
+    "name" : "dummy",
+    "version" : "2.0",
+    "url" : "https://github.com/RicardoPoleo/JMeter-Correlation-Templates-Repository/raw/master/dummy/jars/dummy-2.0.jar"
+  } ],
+  "repositoryId" : "local",
+  "changes" : "Added new rule with dummy 2.0"
+}
