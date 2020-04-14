@@ -1,0 +1,22 @@
+{
+  "id" : "URLs Extractor",
+  "description" : "<p>Extracting <font color=\"red\">URLs</font></p>",
+  "version" : "0.0.1",
+  "components" : "",
+  "responseFilters" : "",
+  "rules" : [ {
+    "referenceName" : "URLs",
+    "correlationExtractor" : {
+      "type" : "com.blazemeter.jmeter.correlation.core.extractors.RegexCorrelationExtractor",
+      "regex" : "href=[\\'\"]?([^\\'\" >]+)"
+    },
+    "correlationReplacement" : null
+  } ],
+  "dependencies" : [ {
+    "name" : "dummy",
+    "version" : "1.0",
+    "url" : "https://github.com/RicardoPoleo/JMeter-Correlation-Templates-Repository/raw/master/dummy/jars/dummy-1.0.jar"
+  } ],
+  "repositoryId" : "local",
+  "changes" : "<ul>\n<li>Added first rule</li>\n<li>Added first dependency</li>\n</ul>"
+}

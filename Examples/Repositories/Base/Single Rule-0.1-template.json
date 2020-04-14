@@ -1,0 +1,18 @@
+{
+  "id" : "Single Rule",
+  "description" : "<p> One Template with <b> ONE </b> single rule </p.>",
+  "version" : "0.1",
+  "components" : "",
+  "responseFilters" : "",
+  "rules" : [ {
+    "referenceName" : "FirstVar",
+    "correlationExtractor" : null,
+    "correlationReplacement" : {
+      "type" : "com.blazemeter.jmeter.correlation.core.replacements.RegexCorrelationReplacement",
+      "regex" : "id=(.*?)"
+    }
+  } ],
+  "dependencies" : [ ],
+  "repositoryId" : "local",
+  "changes" : "Added first rule"
+}

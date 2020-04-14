@@ -1,0 +1,25 @@
+{
+  "id" : "Two Rules",
+  "description" : "Template <b> with two rules </b>",
+  "version" : "0.1.1",
+  "components" : "",
+  "responseFilters" : "",
+  "rules" : [ {
+    "referenceName" : "Var_1",
+    "correlationExtractor" : {
+      "type" : "com.blazemeter.jmeter.correlation.core.extractors.RegexCorrelationExtractor",
+      "regex" : "src=(*)"
+    },
+    "correlationReplacement" : null
+  }, {
+    "referenceName" : "Var_2",
+    "correlationExtractor" : null,
+    "correlationReplacement" : {
+      "type" : "com.blazemeter.jmeter.correlation.core.replacements.RegexCorrelationReplacement",
+      "regex" : "href=(*)"
+    }
+  } ],
+  "dependencies" : [ ],
+  "repositoryId" : "local",
+  "changes" : "Added the first two rules"
+}
