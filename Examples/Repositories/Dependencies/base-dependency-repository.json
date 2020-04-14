@@ -1,3 +1,7 @@
 {
-  "TempWithDependency": { "versions": [ "1.0"] },
+  "TempWithDependency": {
+    "versions": [
+      "1.0"
+    ]
+  }
 }
