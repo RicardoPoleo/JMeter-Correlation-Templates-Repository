@@ -1,4 +1,4 @@
-.idea/workspace.xml
+.idea/*
 *.iml
 .idea/modules.xml
 Examples/Repositories/Base/.DS_Store
