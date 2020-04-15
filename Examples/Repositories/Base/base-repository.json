@@ -1,7 +1,4 @@
 {
-  "siebel" : {
-    "versions" : [ "1.0" ]
-  },
   "Single Rule" : {
     "versions" : [ "0.1" ]
   },
