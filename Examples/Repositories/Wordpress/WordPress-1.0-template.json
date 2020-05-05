@@ -1,0 +1,21 @@
+{
+  "id" : "WordPress",
+  "description" : "This setup of rules allows to: \n<ul>\n\t<li> Login </li>\n\t<li> Extract the value of wpnonce </li>\n\t<li> Replace it on logout request </li>\n\t<li> Logout </li>\n</ul>\n\nUsing one Rule",
+  "version" : "1.0",
+  "components" : "",
+  "responseFilters" : "",
+  "rules" : [ {
+    "referenceName" : "nonce",
+    "correlationExtractor" : {
+      "type" : "com.blazemeter.jmeter.correlation.core.extractors.RegexCorrelationExtractor",
+      "regex" : "_wpnonce=(.*)\""
+    },
+    "correlationReplacement" : {
+      "type" : "com.blazemeter.jmeter.correlation.core.replacements.RegexCorrelationReplacement",
+      "regex" : "_wpnonce=(.*)"
+    }
+  } ],
+  "dependencies" : [ ],
+  "repositoryId" : "local",
+  "changes" : "Added one rule. No dependencies."
+}
